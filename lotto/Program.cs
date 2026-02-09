@@ -73,10 +73,6 @@ namespace lotto
 			int[] tippek = Bekeresek();
 			Kiir(tippek);
 			TalalaatokSzama(nyeroszamok, tippek);
-
-
-
-
 		}
 	}
 }
