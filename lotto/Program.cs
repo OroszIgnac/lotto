@@ -2,7 +2,7 @@
 {
     internal class Program
     {
-        static void LottoszamokGeneralas()
+        static int [] LottoszamokGeneralas()
         {
             Random rnd = new Random();
             int[] szamok = new int[5];
@@ -10,6 +10,7 @@
             {
                 szamok[i] = rnd.Next(1, 91);
             }
+            return szamok;
         }
 
 
@@ -17,7 +18,7 @@
 
         static void Main(string[] args)
         {
-            LottoszamokGeneralas();
+            int [] nyeroszamok = LottoszamokGeneralas();
         }
     }
 }
